@@ -1,7 +1,23 @@
-Run requirement: Requires "Live Server" extension found on VS Code store.
+# Simple Calculator
+
+Project made to showcase my skills handling arithmetic operations & event delegation.
+
+# Requirement
+
+Requires "Live Server" extension found on VS Code store.
 You can get it here: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
--Pretty self-explanatory. Can perform basic arithmetic operations such as add, subtract, multiply and divide; only works with 2 numbers (both can be floats), each one made of user's desired length.
-This is achieved with a method similar to string concatenation. It is done taking advantage of default array conversion made by JS, this is further explained in the code with a comment.
+# Features & Usage
 
-Known limitations: The first number cannot be negative and, as stated before, can't perform operations longer than 2 numbers at a time.
+- Pretty straightforward functionality. Only works with 2 numbers (both can be floats), each one made of user's desired length.
+
+- Can perform basic arithmetic operations such as:
+    - Add
+    - Subtract
+    - Multiply
+    - Divide 
+
+- This is achieved with a method akin to string concatenation. It is done taking advantage of default array conversion made by JS, this is further explained in the code with a comment (see the "numberBtns" event).
+
+>[!NOTE]
+>Known limitations: The first number cannot be negative and as stated before, can't perform operations longer than 2 numbers at a time.
