@@ -1,6 +1,6 @@
 # Simple Calculator
 
-Project made to showcase my skills handling arithmetic operations & event delegation.
+Project made to showcase my skills at handling arithmetic operations & event delegation.
 
 # Requirement
 
