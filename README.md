@@ -1,6 +1,6 @@
 # Simple Calculator
 
-Project made to showcase my skills at handling arithmetic operations & event delegation.
+Project made to showcase my skills handling arithmetic operations & event delegation.
 
 # Requirement
 
@@ -17,7 +17,7 @@ You can get it here: https://marketplace.visualstudio.com/items?itemName=ritwick
     - Multiply
     - Divide 
 
-- This is achieved with a method akin to string concatenation. It is done taking advantage of default array conversion made by JS, this is further explained in the code with a comment (see the "numberBtns" event).
+- This is achieved with a method akin to string concatenation, but by actually using "array.reduce". Making use of the aforementioned method concatenates any strings inside each array, i.e: "["1", "4", "2"]" => "["142"]"; and then, they're simply cast as floats.
 
 >[!NOTE]
 >Known limitations: The first number cannot be negative and as stated before, can't perform operations longer than 2 numbers at a time.
