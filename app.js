@@ -131,6 +131,10 @@ function displayResult(calculationArr) {
 
     calcOutput.classList.add("result");
     calcOutput.value = result.toFixed(2);
+    
+    disableButtons();
 }
+
+const disableButtons = () => { numberBtns.forEach(btn => btn.disabled = true); }
 
 clearBtn.addEventListener("click", () => { window.location.reload(); });
